@@ -1,9 +1,14 @@
+'use client';
+import { Button } from '@carbon/react';
+import TutorialHeader from '@/components/TutorialHeader/TutorialHeader';
 
-export default function Home() {
+export default function Page() {
   return (
-    <div>
-Hello Carbon! Well, not quite yet. This is the starting point for the Carbon NextJS tutorial.
-    </div>
-
-  )
+    <>
+      <TutorialHeader />
+      <main style={{ padding: '2rem' }}>
+        <Button>Button</Button>
+      </main>
+    </>
+  );
 }

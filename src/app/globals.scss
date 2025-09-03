@@ -1,0 +1,12 @@
+@use '@/app/home/landing-page';
+@use '@/app/repos/repo-page';
+@use '@/components/TutorialHeader/tutorial-header';
+@use '@carbon/react';
+
+// Optionaler Workaround aus dem Tutorial (kann so rein)
+@media (min-width: 42rem) {
+  .cds--grid--no-gutter {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

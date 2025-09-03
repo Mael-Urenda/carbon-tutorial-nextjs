@@ -1,0 +1,6 @@
+@use '@carbon/react/scss/colors';
+
+// Tooltip-Hintergrund für dunklen Header auf hellem Content anpassen
+.cds--header__global .cds--popover-content {
+  background-color: colors.$gray-20;
+}
